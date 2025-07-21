@@ -121,7 +121,7 @@ body{
 /* ============== */
 /* == CV == */
 /* ============== */
-.presentation__CV{
+.presentation__cv{
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -129,13 +129,19 @@ body{
   font-weight: 300;
   flex: 1 1 400px;       /* grow and shrink as needed */
 }
-.presentation__CV__job-list{
+.presentation__cv__list{
  list-style-type: none;
 }
-.presentation__CV__company{
+.presentation__cv__company{
   font-size: 16px;
   font-style: italic;
 }
-.presentation__CV__description{
+.presentation__cv__description{
   padding-left: 4%;
+}
+.presentation__cv__credentials{
+  text-decoration: none;
+  font-family: var(--main-font);
+  font-weight: 300;
+  color: var(--second-color);
 }
