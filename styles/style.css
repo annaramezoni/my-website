@@ -121,13 +121,19 @@ body{
 /* ============== */
 /* == CV == */
 /* ============== */
+.cv{
+  display: flex;
+  flex-direction: column;
+  margin: 10% 15%;
+  gap: 4rem;
+  color: var(--second-color);
+}
 .presentation__cv{
   display: flex;
   flex-direction: column;
   gap: 2rem;
   font-family: var(--main-font);
   font-weight: 300;
-  flex: 1 1 400px;       /* grow and shrink as needed */
 }
 .presentation__cv__list{
  list-style-type: none;
