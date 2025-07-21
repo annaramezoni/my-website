@@ -87,7 +87,10 @@ body{
 .presentation__introduction__links__link:hover{
   background-color: var(--hover-color);
 }
-img {
+.presentation__introduction__links__logo {
+  padding-right: 8px;
+}
+.cover {
   flex: 1 1 350px;
   max-width: 300px;      /* limit width on large screens */
   min-width: 200px;      /* allow it to shrink but not too much */
