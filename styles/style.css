@@ -146,7 +146,6 @@ body{
   padding-left: 4%;
 }
 .presentation__cv__credentials{
-  text-decoration: none;
   font-family: var(--main-font);
   font-weight: 300;
   color: var(--second-color);
