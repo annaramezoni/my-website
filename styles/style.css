@@ -36,7 +36,7 @@ body{
   align-items: center; 
   margin: 10% 15%;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   gap: 60px;
   color: var(--second-color);
 }
