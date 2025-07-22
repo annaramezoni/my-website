@@ -104,8 +104,8 @@ body{
 .footnote__text{
   font-family: var(--main-font);
   font-weight: 300;
-  font-size: 09rem;
-  color:var(--first-color);
+  font-size: 0.9rem;
+  color:black;
 }
 /* ============== */
 /* == about me == */
