@@ -37,7 +37,7 @@ body{
   margin: 10% 15%;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 60px;
   color: var(--second-color);
 }
 .presentation__introduction{
@@ -47,7 +47,6 @@ body{
   font-family: var(--main-font);
   font-weight: 300;
   flex: 1 1 400px;       /* grow and shrink as needed */
-  max-width: 500px;      /* limit width on large screens */
   min-width: 250px;      /* allow it to shrink but not too much */
 }
 .presentation__introduction__title{
@@ -91,7 +90,7 @@ body{
   padding-right: 8px;
 }
 .cover {
-  flex: 1 1 350px;
+  flex: 1 1 300px;
   max-width: 300px;      /* limit width on large screens */
   min-width: 200px;      /* allow it to shrink but not too much */
   object-fit: cover;
@@ -101,7 +100,6 @@ body{
   justify-content: center;
   background: var(--second-color);
   padding:0.5% 0% 0.5% 0%;
-
 }
 .footnote__text{
   font-family: var(--main-font);
