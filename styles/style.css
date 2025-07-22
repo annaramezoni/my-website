@@ -27,7 +27,7 @@ body{
 .heading__menu__link{
   font-family: var(--main-font);
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.25rem;
   color:var(--first-color);
   text-decoration: none;
  }
@@ -51,7 +51,7 @@ body{
   min-width: 250px;      /* allow it to shrink but not too much */
 }
 .presentation__introduction__title{
-  font-size: 32px;
+  font-size: 2rem;
   text-align: left;  
   font-family: var(--main-font);
   font-weight: 400;
@@ -59,7 +59,7 @@ body{
 .presentation__introduction__paragraph{
   font-family: var(--main-font);
   font-weight: 300;
-  font-size: 24px;
+  font-size: 1.5rem;
   text-align: left; 
 }
 .presentation__introduction__links{
@@ -72,7 +72,7 @@ body{
   text-decoration: none;
   font-family: var(--main-font);
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.1rem;
   color: var(--first-color);
   background-color: var(--second-color);
   padding: 2% 5%;
@@ -106,7 +106,7 @@ body{
 .footnote__text{
   font-family: var(--main-font);
   font-weight: 300;
-  font-size: 14px;
+  font-size: 09rem;
   color:var(--first-color);
 }
 /* ============== */
@@ -115,7 +115,7 @@ body{
 .presentation__about-me__paragraph{
   font-family: var(--main-font);
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.1rem;
   text-align: left; 
 }
 /* ============== */
@@ -139,7 +139,7 @@ body{
  list-style-type: none;
 }
 .presentation__cv__company{
-  font-size: 16px;
+  font-size: 1rem;
   font-style: italic;
 }
 .presentation__cv__description{
