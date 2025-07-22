@@ -47,7 +47,7 @@ body{
   font-family: var(--main-font);
   font-weight: 300;
   flex: 1 1 400px;       /* grow and shrink as needed */
-  min-width: 250px;      /* allow it to shrink but not too much */
+  width: 250px;      /* allow it to shrink but not too much */
 }
 .presentation__introduction__title{
   font-size: 2rem;
