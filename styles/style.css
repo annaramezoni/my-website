@@ -117,7 +117,7 @@ body{
   text-align: left; 
 }
 /* ============== */
-/* == CV == */
+/* == RESUME == */
 /* ============== */
 .cv{
   display: flex;
@@ -133,11 +133,18 @@ body{
   font-family: var(--main-font);
   font-weight: 300;
 }
+.presentation__cv__container {
+  list-style: none;        /* Removes bullet on some browsers */
+  cursor: pointer;         /* Makes it look clickable */
+  outline: none;           /* Removes blue outline on click */
+  font-family: var(--main-font);
+  font-size: 2rem;
+  font-weight: 700;
+}
 .presentation__cv__list{
  list-style-type: none;
 }
 .presentation__cv__company{
-  font-size: 1rem;
   font-style: italic;
 }
 .presentation__cv__description{
@@ -145,6 +152,6 @@ body{
 }
 .presentation__cv__credentials{
   font-family: var(--main-font);
-  font-weight: 300;
+  font-weight: 800;
   color: var(--second-color);
 }
