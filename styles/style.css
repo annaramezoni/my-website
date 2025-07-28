@@ -98,7 +98,7 @@ body{
 .footnote{
   display: flex;
   justify-content: center;
-  background: var(--second-color);
+  /*background: var(--second-color);*/
   padding:0.5% 0% 0.5% 0%;
 }
 .footnote__text{
