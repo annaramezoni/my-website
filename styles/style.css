@@ -96,10 +96,11 @@ body{
   object-fit: cover;
 }
 .footnote{
-  display: flex;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
   justify-content: center;
-  /*background: var(--second-color);*/
-  padding:0.5% 0% 0.5% 0%;
+  padding-bottom: 20px;
 }
 .footnote__text{
   font-family: var(--main-font);
@@ -123,26 +124,48 @@ body{
   display: flex;
   flex-direction: column;
   margin: 10% 15%;
-  gap: 4rem;
   color: var(--second-color);
+  /* height: 100vh; */
 }
 .presentation__cv{
   display: flex;
   flex-direction: column;
-  gap: 2rem;
   font-family: var(--main-font);
   font-weight: 300;
 }
 .presentation__cv__container {
-  list-style: none;        /* Removes bullet on some browsers */
-  cursor: pointer;         /* Makes it look clickable */
-  outline: none;           /* Removes blue outline on click */
+  list-style: none;
+  cursor: pointer;
+  outline: none;
   font-family: var(--main-font);
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 700;
+  padding-bottom: 20px;
+  position: relative;
+  padding-right: 1.5em;
+  user-select: none;
+}
+.presentation__cv__container::before {
+  content: '►';
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 1.8rem;
+  transition: all 0.2s ease;
+}
+.presentation__cv[open] summary::before {
+  content: '▼'; 
+  font-size: 1.8rem;
+}
+.presentation__cv__container:hover {
+  color: var(--hover-color)
 }
 .presentation__cv__list{
  list-style-type: none;
+ margin-top:1rem;
+}
+details ul:last-child {
+  margin-bottom: 2rem;
 }
 .presentation__cv__company{
   font-style: italic;
@@ -152,6 +175,6 @@ body{
 }
 .presentation__cv__credentials{
   font-family: var(--main-font);
-  font-weight: 800;
+  font-weight: 400;
   color: var(--second-color);
 }
