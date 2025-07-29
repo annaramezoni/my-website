@@ -79,9 +79,6 @@ body{
   display:flex;
   align-items: center;
   gap: 1 rem;
-  /*border: solid;
-  border-color: var(--third-color);
-  border-width: 2px;*/
 }
 .presentation__introduction__links__link:hover{
   background-color: var(--hover-color);
@@ -99,8 +96,10 @@ body{
   text-align: center;
   display: block;
   margin: 0 auto;
-  justify-content: center;
   padding-bottom: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 .footnote__text{
   font-family: var(--main-font);
@@ -140,22 +139,23 @@ body{
   font-family: var(--main-font);
   font-size: 1.8rem;
   font-weight: 700;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   position: relative;
   padding-right: 1.5em;
   user-select: none;
 }
-.presentation__cv__container::before {
+.presentation__cv__container::after {
   content: '►';
   position: absolute;
-  right: 0;
-  top: 0;
-  font-size: 1.8rem;
+  bottom: 48%;
+  right: 70%;
+  font-size: 0.8em;
   transition: all 0.2s ease;
 }
-.presentation__cv[open] summary::before {
+.presentation__cv[open] summary::after {
   content: '▼'; 
-  font-size: 1.8rem;
+  font-size: 0.8em;
+  bottom:48%;
 }
 .presentation__cv__container:hover {
   color: var(--hover-color)
