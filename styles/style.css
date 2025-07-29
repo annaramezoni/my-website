@@ -124,7 +124,6 @@ body{
   flex-direction: column;
   margin: 10% 15%;
   color: var(--second-color);
-  /* height: 100vh; */
 }
 .presentation__cv{
   display: flex;
@@ -148,7 +147,7 @@ body{
   content: '►';
   position: absolute;
   bottom: 48%;
-  right: 70%;
+  left: 15em;
   font-size: 0.8em;
   transition: all 0.2s ease;
 }
