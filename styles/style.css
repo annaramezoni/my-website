@@ -4,6 +4,7 @@
   --second-color: #BA487F;
   --third-color: #722323;
   --hover-color: #e4589c;
+  --color-footer: #383535;
 
   --main-font: "Noto Sans", sans-serif;
 }
@@ -104,8 +105,8 @@ body{
 .footnote__text{
   font-family: var(--main-font);
   font-weight: 300;
-  font-size: 0.9rem;
-  color:black;
+  font-size: 0.8rem;
+  color: var(--color-footer);
 }
 /* ============== */
 /* == about me == */
